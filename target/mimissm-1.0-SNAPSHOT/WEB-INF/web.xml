@@ -50,9 +50,9 @@
         <param-name>contextConfigLocation</param-name>
         <param-value>classpath:applicationContext_*.xml</param-value>
     </context-param>
-
+    <!--    欢迎页面 直接访问登陆页面-->
     <welcome-file-list>
-        <welcome-file>admin/login.jsp</welcome-file>
+        <welcome-file>/admin/login.jsp</welcome-file>
     </welcome-file-list>
 
 </web-app>

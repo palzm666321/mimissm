@@ -46,7 +46,11 @@ pageEncoding="UTF-8"%>
 						</tr>
 					</table>
 				</form>
-				${errmsg}
+
+				<div style="color: red">
+					${errmsg}
+				</div>
+
 			</div>
 
 		</div>
