@@ -13,4 +13,5 @@ public interface ProductinfoService {
     PageInfo splitPage(int pageNum,int pageSize);
 
 
+    int save(ProductInfo info);
 }

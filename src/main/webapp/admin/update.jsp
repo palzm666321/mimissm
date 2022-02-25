@@ -90,7 +90,7 @@
 						
 						<tr>
 							<td class="one">图片介绍</td>
-							<td> <br><div id="imgDiv" style="display:block; width: 40px; height: 50px;"><img src="/image_big/${prod.pImage}" width="100px" height="100px" ></div><br><br><br><br>
+							<td> <br><div id="imgDiv" style="display:block; width: 40px; height: 50px;"><img src="${pageContext.request.contextPath}/image_big/${prod.pImage}" width="100px" height="100px" ></div><br><br><br><br>
 								<input type="file" id="pimage" name="pimage" onchange="fileChange()">
 								<span id="imgName"></span><br>
 
